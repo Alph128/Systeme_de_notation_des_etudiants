@@ -1,0 +1,9 @@
+# Dosiers de Build
+target/
+
+# Fichiers compilés
+*.class
+
+#Fichiers IDE
+.idea/
+*.iml
