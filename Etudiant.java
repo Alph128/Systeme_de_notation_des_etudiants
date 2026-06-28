@@ -20,6 +20,12 @@ public class Etudiant {
     public void ajouterNote(double note) {
         notes.add(note);
     }
+    public double calculerMoyenne() {
+        if (notes.isEmpty()) return 0;
+        double somme = 0;
+        for (double n : notes) somme += n;
+        return somme / notes.size();
+    }
     @Override
     public String toString() {
         return "Etudiant{nom='" + nom + "', prenom='" + prenomEtudiant + "', notes=" + notes + "}";
