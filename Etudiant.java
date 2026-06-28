@@ -23,6 +23,10 @@ public class Etudiant {
         return notes;
     }
 
+    public void ajouterNote(double note) {
+        notes.add(note);
+    }
+
     @Override
     public String toString() {
         return "Etudiant{nom='" + nom + "', prenom='" + prenom + "', notes=" + notes + "}";
