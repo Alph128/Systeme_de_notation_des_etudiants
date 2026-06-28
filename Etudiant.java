@@ -25,7 +25,7 @@ public class Etudiant {
         double somme = 0;
         for (double n : notes) somme += n;
         return somme / notes.size();
-    }
+    } 
     @Override
     public String toString() {
         return "Etudiant{nom='" + nom + "', prenom='" + prenomEtudiant + "', notes=" + notes + "}";
